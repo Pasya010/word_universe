@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tugas9_010/page/home_page.dart';
+import 'package:tugas9_010/pages/credit.dart';
 
 class MainMenu extends StatelessWidget {
   const MainMenu({Key? key}) : super(key: key);
@@ -43,7 +44,7 @@ class MainMenu extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const HomePage()),
+                            builder: (context) => const CreditPage()),
                       );
                     },
                     child: const Text('Credit'),
